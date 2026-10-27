@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title description">
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title description">
   <title id="title">Salut, lume! - Laborator 05</title>
   <desc id="description">Prezentarea completa a proiectului Laborator 5, cu instructiuni si structura, pe un fundal roz animat.</desc>
   <defs>
@@ -66,4 +66,4 @@
   <path d="M64 694H836" stroke="#f5f2e8" stroke-opacity=".12"/>
   <text x="66" y="718" fill="#f5f2e8" fill-opacity=".46" font-family="Courier New, monospace" font-size="11" letter-spacing="1">HTML / BROWSER / PROIECT STATIC</text>
   <text x="834" y="718" fill="#f5f2e8" fill-opacity=".46" font-family="Courier New, monospace" font-size="11" text-anchor="end">LABORATOR 05</text>
-</svg>
+ </svg>
