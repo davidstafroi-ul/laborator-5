@@ -1,7 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title description">
   <title id="title">Salut, lume! - Laborator 05</title>
-  <desc id="description">Doua straturi de grila se misca in parallax, iar reflexii verzi traverseaza fundalul.</desc>
+  <desc id="description">Fundalul verde-inchis isi schimba lent nuantele, cu textura fina, grile in parallax si reflexii discrete.</desc>
   <defs>
+    <linearGradient id="ambient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#101b19"/>
+      <stop offset=".38" stop-color="#17342d"/>
+      <stop offset=".72" stop-color="#26372b"/>
+      <stop offset="1" stop-color="#12211e"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="-4 .5 .5;4 .5 .5;-4 .5 .5" dur="32s" repeatCount="indefinite"/>
+    </linearGradient>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" fill="none" stroke="#f5f2e8" stroke-opacity=".09" stroke-width="1"/>
       <animateTransform attributeName="patternTransform" type="translate" values="0 0;48 48;0 0" dur="18s" repeatCount="indefinite"/>
@@ -9,6 +16,13 @@
     <pattern id="diagonal-grid" width="96" height="96" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
       <path d="M0 0V96" fill="none" stroke="#d3f36b" stroke-opacity=".08" stroke-width="1"/>
       <animateTransform attributeName="patternTransform" type="translate" additive="sum" values="0 0;96 0;0 0" dur="34s" repeatCount="indefinite"/>
+    </pattern>
+    <pattern id="grain" width="84" height="84" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="13" r="1" fill="#f5f2e8" fill-opacity=".13"/>
+      <circle cx="31" cy="39" r="1" fill="#f5f2e8" fill-opacity=".1"/>
+      <circle cx="67" cy="18" r="1" fill="#f5f2e8" fill-opacity=".12"/>
+      <circle cx="53" cy="69" r="1" fill="#f5f2e8" fill-opacity=".1"/>
+      <circle cx="17" cy="76" r="1" fill="#f5f2e8" fill-opacity=".12"/>
     </pattern>
     <linearGradient id="beam" x1="0" x2="1">
       <stop offset="0" stop-color="#d3f36b" stop-opacity="0"/>
@@ -21,7 +35,8 @@
       <stop offset="1" stop-color="#d3f36b" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="320" fill="#14231f"/>
+  <rect width="900" height="320" fill="url(#ambient)"/>
+  <rect width="900" height="320" fill="url(#grain)" opacity=".55"/>
   <rect width="900" height="320" fill="url(#grid)"/>
   <rect width="900" height="320" fill="url(#diagonal-grid)"/>
   <rect x="-180" y="0" width="180" height="320" fill="url(#beam)">
