@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title description">
   <title id="title">Salut, lume! - Laborator 05</title>
-  <desc id="description">Prezentarea completa a proiectului Laborator 5, cu instructiuni si structura, pe un fundal verde animat.</desc>
+  <desc id="description">Prezentarea completa a proiectului Laborator 5, cu instructiuni si structura, pe un fundal roz animat.</desc>
   <defs>
     <linearGradient id="ambient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0" stop-color="#101b19"/>
-      <stop offset=".38" stop-color="#17342d"/>
-      <stop offset=".72" stop-color="#26372b"/>
-      <stop offset="1" stop-color="#12211e"/>
+      <stop offset="0" stop-color="#180d19"/>
+      <stop offset=".38" stop-color="#351629"/>
+      <stop offset=".72" stop-color="#50213d"/>
+      <stop offset="1" stop-color="#21101f"/>
       <animateTransform attributeName="gradientTransform" type="rotate" values="-4 .5 .5;4 .5 .5;-4 .5 .5" dur="32s" repeatCount="indefinite"/>
     </linearGradient>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
@@ -14,7 +14,7 @@
       <animateTransform attributeName="patternTransform" type="translate" values="0 0;48 48;0 0" dur="18s" repeatCount="indefinite"/>
     </pattern>
     <pattern id="diagonal-grid" width="96" height="96" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-      <path d="M0 0V96" fill="none" stroke="#d3f36b" stroke-opacity=".08" stroke-width="1"/>
+      <path d="M0 0V96" fill="none" stroke="#ff8fc7" stroke-opacity=".12" stroke-width="1"/>
       <animateTransform attributeName="patternTransform" type="translate" additive="sum" values="0 0;96 0;0 0" dur="34s" repeatCount="indefinite"/>
     </pattern>
     <pattern id="grain" width="84" height="84" patternUnits="userSpaceOnUse">
@@ -25,14 +25,14 @@
       <circle cx="17" cy="76" r="1" fill="#f5f2e8" fill-opacity=".12"/>
     </pattern>
     <linearGradient id="beam" x1="0" x2="1">
-      <stop offset="0" stop-color="#d3f36b" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#d3f36b" stop-opacity=".12"/>
-      <stop offset="1" stop-color="#d3f36b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#ff8fc7" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ff8fc7" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#ff8fc7" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="horizontal-beam" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#d3f36b" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#d3f36b" stop-opacity=".07"/>
-      <stop offset="1" stop-color="#d3f36b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#ff8fc7" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ff8fc7" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#ff8fc7" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <rect width="900" height="760" fill="url(#ambient)"/>
@@ -46,21 +46,21 @@
     <animate attributeName="y" values="-150;760;-150" dur="16s" repeatCount="indefinite"/>
   </rect>
   <rect x="24" y="24" width="852" height="712" rx="8" fill="none" stroke="#f5f2e8" stroke-opacity=".2"/>
-  <path d="M64 74h28" stroke="#ff765e" stroke-width="2"/>
-  <text x="108" y="79" fill="#d3f36b" font-family="Courier New, monospace" font-size="14" font-weight="bold" letter-spacing="2">LABORATOR 05 / PROIECT WEB</text>
+  <path d="M64 74h28" stroke="#ffb3d8" stroke-width="2"/>
+  <text x="108" y="79" fill="#ff8fc7" font-family="Courier New, monospace" font-size="14" font-weight="bold" letter-spacing="2">LABORATOR 05 / PROIECT WEB</text>
   <text x="830" y="79" fill="#f5f2e8" fill-opacity=".58" font-family="Courier New, monospace" font-size="12" text-anchor="end" letter-spacing="1">RO / 001</text>
   <text x="64" y="204" fill="#f5f2e8" font-family="Georgia, serif" font-size="88">Salut,</text>
-  <text x="64" y="296" fill="#d3f36b" font-family="Georgia, serif" font-size="88" font-style="italic">lume!</text>
+  <text x="64" y="296" fill="#ff8fc7" font-family="Georgia, serif" font-size="88" font-style="italic">lume!</text>
   <text x="70" y="348" fill="#f5f2e8" fill-opacity=".78" font-family="Courier New, monospace" font-size="16">O prima pagina web, simpla si prietenoasa.</text>
   <path d="M64 397H836" stroke="#f5f2e8" stroke-opacity=".2"/>
-  <text x="66" y="444" fill="#d3f36b" font-family="Courier New, monospace" font-size="12" font-weight="bold" letter-spacing="2">DESCHIDE PROIECTUL</text>
+  <text x="66" y="444" fill="#ff8fc7" font-family="Courier New, monospace" font-size="12" font-weight="bold" letter-spacing="2">DESCHIDE PROIECTUL</text>
   <text x="66" y="478" fill="#f5f2e8" font-family="Courier New, monospace" font-size="15">Deschide index.html direct in browser.</text>
   <text x="66" y="505" fill="#f5f2e8" fill-opacity=".62" font-family="Courier New, monospace" font-size="13">Nu sunt necesare instalari suplimentare.</text>
-  <rect x="676" y="423" width="160" height="54" rx="3" fill="#d3f36b" fill-opacity=".08" stroke="#d3f36b" stroke-opacity=".8"/>
-  <text x="756" y="456" fill="#d3f36b" font-family="Courier New, monospace" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">VEZI PAGINA ↗</text>
+  <rect x="676" y="423" width="160" height="54" rx="3" fill="#ff8fc7" fill-opacity=".1" stroke="#ff8fc7" stroke-opacity=".85"/>
+  <text x="756" y="456" fill="#ffb3d8" font-family="Courier New, monospace" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">VEZI PAGINA ↗</text>
   <path d="M64 552H836" stroke="#f5f2e8" stroke-opacity=".2"/>
   <text x="66" y="591" fill="#f5f2e8" fill-opacity=".58" font-family="Courier New, monospace" font-size="12" font-weight="bold" letter-spacing="2">STRUCTURA PROIECTULUI</text>
-  <text x="66" y="635" fill="#d3f36b" font-family="Courier New, monospace" font-size="15">01</text>
+  <text x="66" y="635" fill="#ff8fc7" font-family="Courier New, monospace" font-size="15">01</text>
   <text x="112" y="635" fill="#f5f2e8" font-family="Courier New, monospace" font-size="15" font-weight="bold">index.html</text>
   <text x="112" y="663" fill="#f5f2e8" fill-opacity=".62" font-family="Courier New, monospace" font-size="13">Pagina principala a proiectului.</text>
   <path d="M64 694H836" stroke="#f5f2e8" stroke-opacity=".12"/>
