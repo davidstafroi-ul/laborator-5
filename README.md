@@ -1,1 +1,19 @@
-# laborator-5
+# Laborator 5 | Proiect Web
+
+> O prima pagina web, simpla si prietenoasa.
+
+Pagina afiseaza un mesaj de bun venit si marcheaza inceputul proiectului realizat pentru laboratorul 5.
+
+## Deschide proiectul
+
+Deschide fisierul [`index.html`](index.html) direct in browser. Nu sunt necesare instalari sau configurari suplimentare.
+
+## Structura
+
+| Fisier | Rol |
+| --- | --- |
+| `index.html` | Pagina principala a proiectului |
+
+---
+
+**Laborator 5** · Proiect web static
