@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title description">
+  <title id="title">Salut, lume! - Laborator 05</title>
+  <desc id="description">Grila se deplaseaza usor, iar o raza verde traverseaza fundalul.</desc>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#f5f2e8" stroke-opacity=".09" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" values="0 0;48 48;0 0" dur="18s" repeatCount="indefinite"/>
+    </pattern>
+    <linearGradient id="beam" x1="0" x2="1">
+      <stop offset="0" stop-color="#d3f36b" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#d3f36b" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#d3f36b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="320" fill="#14231f"/>
+  <rect width="900" height="320" fill="url(#grid)"/>
+  <rect x="-180" y="0" width="180" height="320" fill="url(#beam)">
+    <animate attributeName="x" values="-180;900;-180" dur="12s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M64 82h28" stroke="#ff765e" stroke-width="2"/>
+  <text x="108" y="87" fill="#d3f36b" font-family="Courier New, monospace" font-size="14" font-weight="bold" letter-spacing="2">LABORATOR 05 / PROIECT WEB</text>
+  <text x="62" y="180" fill="#f5f2e8" font-family="Georgia, serif" font-size="76">Salut,</text>
+  <text x="62" y="258" fill="#d3f36b" font-family="Georgia, serif" font-size="76" font-style="italic">lume!</text>
+  <text x="68" y="294" fill="#f5f2e8" fill-opacity=".76" font-family="Courier New, monospace" font-size="14">Bine ati venit pe pagina mea web.</text>
+  <text x="828" y="294" fill="#f5f2e8" fill-opacity=".5" font-family="Courier New, monospace" font-size="12" text-anchor="end">RO / 001</text>
+</svg>

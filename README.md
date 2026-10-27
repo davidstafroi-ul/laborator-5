@@ -2,6 +2,8 @@
 
 > O prima pagina web, simpla si prietenoasa.
 
+![Fundal animat cu grila in miscare si mesajul Salut, lume](readme-animation.svg)
+
 Pagina afiseaza un mesaj de bun venit si marcheaza inceputul proiectului realizat pentru laboratorul 5.
 
 ## Deschide proiectul
