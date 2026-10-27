@@ -1,21 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title description">
   <title id="title">Salut, lume! - Laborator 05</title>
-  <desc id="description">Grila se deplaseaza usor, iar o raza verde traverseaza fundalul.</desc>
+  <desc id="description">Doua straturi de grila se misca in parallax, iar reflexii verzi traverseaza fundalul.</desc>
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" fill="none" stroke="#f5f2e8" stroke-opacity=".09" stroke-width="1"/>
       <animateTransform attributeName="patternTransform" type="translate" values="0 0;48 48;0 0" dur="18s" repeatCount="indefinite"/>
+    </pattern>
+    <pattern id="diagonal-grid" width="96" height="96" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0V96" fill="none" stroke="#d3f36b" stroke-opacity=".08" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" additive="sum" values="0 0;96 0;0 0" dur="34s" repeatCount="indefinite"/>
     </pattern>
     <linearGradient id="beam" x1="0" x2="1">
       <stop offset="0" stop-color="#d3f36b" stop-opacity="0"/>
       <stop offset=".5" stop-color="#d3f36b" stop-opacity=".12"/>
       <stop offset="1" stop-color="#d3f36b" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="horizontal-beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3f36b" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#d3f36b" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#d3f36b" stop-opacity="0"/>
+    </linearGradient>
   </defs>
   <rect width="900" height="320" fill="#14231f"/>
   <rect width="900" height="320" fill="url(#grid)"/>
+  <rect width="900" height="320" fill="url(#diagonal-grid)"/>
   <rect x="-180" y="0" width="180" height="320" fill="url(#beam)">
     <animate attributeName="x" values="-180;900;-180" dur="12s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="0" y="-120" width="900" height="120" fill="url(#horizontal-beam)">
+    <animate attributeName="y" values="-120;320;-120" dur="16s" repeatCount="indefinite"/>
   </rect>
   <path d="M64 82h28" stroke="#ff765e" stroke-width="2"/>
   <text x="108" y="87" fill="#d3f36b" font-family="Courier New, monospace" font-size="14" font-weight="bold" letter-spacing="2">LABORATOR 05 / PROIECT WEB</text>
