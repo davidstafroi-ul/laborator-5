@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title description">
   <title id="title">Salut, lume! - Laborator 05</title>
-  <desc id="description">Fundalul verde-inchis isi schimba lent nuantele, cu textura fina, grile in parallax si reflexii discrete.</desc>
+  <desc id="description">Prezentarea completa a proiectului Laborator 5, cu instructiuni si structura, pe un fundal verde animat.</desc>
   <defs>
     <linearGradient id="ambient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0" stop-color="#101b19"/>
@@ -35,20 +35,35 @@
       <stop offset="1" stop-color="#d3f36b" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="320" fill="url(#ambient)"/>
-  <rect width="900" height="320" fill="url(#grain)" opacity=".55"/>
-  <rect width="900" height="320" fill="url(#grid)"/>
-  <rect width="900" height="320" fill="url(#diagonal-grid)"/>
-  <rect x="-180" y="0" width="180" height="320" fill="url(#beam)">
+  <rect width="900" height="760" fill="url(#ambient)"/>
+  <rect width="900" height="760" fill="url(#grain)" opacity=".55"/>
+  <rect width="900" height="760" fill="url(#grid)"/>
+  <rect width="900" height="760" fill="url(#diagonal-grid)"/>
+  <rect x="-180" y="0" width="180" height="760" fill="url(#beam)">
     <animate attributeName="x" values="-180;900;-180" dur="12s" repeatCount="indefinite"/>
   </rect>
-  <rect x="0" y="-120" width="900" height="120" fill="url(#horizontal-beam)">
-    <animate attributeName="y" values="-120;320;-120" dur="16s" repeatCount="indefinite"/>
+  <rect x="0" y="-120" width="900" height="150" fill="url(#horizontal-beam)">
+    <animate attributeName="y" values="-150;760;-150" dur="16s" repeatCount="indefinite"/>
   </rect>
-  <path d="M64 82h28" stroke="#ff765e" stroke-width="2"/>
-  <text x="108" y="87" fill="#d3f36b" font-family="Courier New, monospace" font-size="14" font-weight="bold" letter-spacing="2">LABORATOR 05 / PROIECT WEB</text>
-  <text x="62" y="180" fill="#f5f2e8" font-family="Georgia, serif" font-size="76">Salut,</text>
-  <text x="62" y="258" fill="#d3f36b" font-family="Georgia, serif" font-size="76" font-style="italic">lume!</text>
-  <text x="68" y="294" fill="#f5f2e8" fill-opacity=".76" font-family="Courier New, monospace" font-size="14">Bine ati venit pe pagina mea web.</text>
-  <text x="828" y="294" fill="#f5f2e8" fill-opacity=".5" font-family="Courier New, monospace" font-size="12" text-anchor="end">RO / 001</text>
+  <rect x="24" y="24" width="852" height="712" rx="8" fill="none" stroke="#f5f2e8" stroke-opacity=".2"/>
+  <path d="M64 74h28" stroke="#ff765e" stroke-width="2"/>
+  <text x="108" y="79" fill="#d3f36b" font-family="Courier New, monospace" font-size="14" font-weight="bold" letter-spacing="2">LABORATOR 05 / PROIECT WEB</text>
+  <text x="830" y="79" fill="#f5f2e8" fill-opacity=".58" font-family="Courier New, monospace" font-size="12" text-anchor="end" letter-spacing="1">RO / 001</text>
+  <text x="64" y="204" fill="#f5f2e8" font-family="Georgia, serif" font-size="88">Salut,</text>
+  <text x="64" y="296" fill="#d3f36b" font-family="Georgia, serif" font-size="88" font-style="italic">lume!</text>
+  <text x="70" y="348" fill="#f5f2e8" fill-opacity=".78" font-family="Courier New, monospace" font-size="16">O prima pagina web, simpla si prietenoasa.</text>
+  <path d="M64 397H836" stroke="#f5f2e8" stroke-opacity=".2"/>
+  <text x="66" y="444" fill="#d3f36b" font-family="Courier New, monospace" font-size="12" font-weight="bold" letter-spacing="2">DESCHIDE PROIECTUL</text>
+  <text x="66" y="478" fill="#f5f2e8" font-family="Courier New, monospace" font-size="15">Deschide index.html direct in browser.</text>
+  <text x="66" y="505" fill="#f5f2e8" fill-opacity=".62" font-family="Courier New, monospace" font-size="13">Nu sunt necesare instalari suplimentare.</text>
+  <rect x="676" y="423" width="160" height="54" rx="3" fill="#d3f36b" fill-opacity=".08" stroke="#d3f36b" stroke-opacity=".8"/>
+  <text x="756" y="456" fill="#d3f36b" font-family="Courier New, monospace" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">VEZI PAGINA ↗</text>
+  <path d="M64 552H836" stroke="#f5f2e8" stroke-opacity=".2"/>
+  <text x="66" y="591" fill="#f5f2e8" fill-opacity=".58" font-family="Courier New, monospace" font-size="12" font-weight="bold" letter-spacing="2">STRUCTURA PROIECTULUI</text>
+  <text x="66" y="635" fill="#d3f36b" font-family="Courier New, monospace" font-size="15">01</text>
+  <text x="112" y="635" fill="#f5f2e8" font-family="Courier New, monospace" font-size="15" font-weight="bold">index.html</text>
+  <text x="112" y="663" fill="#f5f2e8" fill-opacity=".62" font-family="Courier New, monospace" font-size="13">Pagina principala a proiectului.</text>
+  <path d="M64 694H836" stroke="#f5f2e8" stroke-opacity=".12"/>
+  <text x="66" y="718" fill="#f5f2e8" fill-opacity=".46" font-family="Courier New, monospace" font-size="11" letter-spacing="1">HTML / BROWSER / PROIECT STATIC</text>
+  <text x="834" y="718" fill="#f5f2e8" fill-opacity=".46" font-family="Courier New, monospace" font-size="11" text-anchor="end">LABORATOR 05</text>
 </svg>
