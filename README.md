@@ -1,1 +1,1 @@
-[![Laboratorul 5: proiect web, pagina principala si instructiuni](readme-animation.svg)](index.html)
+[![Laboratorul 5: proiect web, pagina principala si instructiuni](readme-premium.svg)](index.html)
